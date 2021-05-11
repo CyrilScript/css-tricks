@@ -1,3 +1,4 @@
+/* SHOWS ONLY THREE LINES */
 .showThreeLinesOnly {
   display: -webkit-box;
   -webkit-line-clamp: 3;

@@ -1,0 +1,27 @@
+/* 
+SCROLL BAR, ALL BROWSERS
+
+Gives the scroll bar some round edges & makes it white (will be seen if you have a dark background)
+*/
+
+.scrollSection {
+  /* Works on Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: white white;
+  }
+
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0.35rem !important;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: white !important;
+    border-radius: 20px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: white;
+  }
+}

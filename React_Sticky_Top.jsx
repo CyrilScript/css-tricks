@@ -6,7 +6,7 @@ export default function App() {
 
   const handleScroll = () => {
     const offset = window.scrollY;
-    //Scroll to top until the tip of the header it at y-axis of 90. 
+    //Scroll to top until the tip of the header is at y-axis of 90. 
     if (offset > 90) {
       setScrolled(true);
     } else {

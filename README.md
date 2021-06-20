@@ -6,4 +6,4 @@ Some bunch of css tricks,
 
 - React_Sticky_Top.jsx implements sticky top in react. 
 
-- CSS FILTER GENERATOR: To change color of image to target color (here)[https://codepen.io/sosuke/pen/Pjoqqp]
+- CSS FILTER GENERATOR: To change color of image to target color [here](https://codepen.io/sosuke/pen/Pjoqqp)
